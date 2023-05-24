@@ -1,0 +1,64 @@
+.container {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    min-height: 80vh;
+    width: 75vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.6em;
+    background: white;
+    padding: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0.5em;
+}
+
+.selectImageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #00000060;
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #00000060;
+    border-radius: 0.6em;
+}
+
+.borderRadius {
+    border-radius: 0.6em;
+}
+
+
+.button {
+    user-select: none;
+    font-size: 0.9em;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 0.6em;
+}
+
+.buttonDisabled {
+    font-size: 0.9em;
+    cursor: default;
+    background-color: rgba(220, 20, 60, 0.747);
+    color: white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 0.6em;
+}

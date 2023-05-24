@@ -1,0 +1,42 @@
+.side {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    padding: 1.2em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.6em;
+    background: white;
+    width: 20vw;
+}
+
+.imageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #00000040;
+    color: white;
+}
+
+.borderRadius {
+    border-radius: 50%;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+}
+
+.textDanger {
+    color: crimson
+}
